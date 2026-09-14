@@ -1,6 +1,6 @@
 # Research Note 001 — When PASS Is Not Promotion
 
-**Binding evaluations to the exact input consumed** · Version 1.0 · 14 September 2026
+**Binding evaluations to the exact input consumed** · Version 1.0.1 · 14 September 2026
 
 By **Xián Blanco Méndez**.
 
@@ -31,3 +31,7 @@ Expected observations: distinct inputs produce the same unbound PASS receipt; mi
 The historical case is a sanitized, author-reported account from a private project. Its source records are not distributed here. The example is synthetic and does not validate the private system. It assumes an honest local recorder and provides no durable or cryptographic attestation mechanism. See the note for prior art and full limitations.
 
 The checksums describe the distributed files; they do not prove historical consumption, publication authority or factual correctness. Version changes should preserve the earlier release and state the correction.
+
+## Revision history
+
+Version 1.0.1 clarifies that a timestamp records a claimed time; it does not by itself prove event ordering. The finding and synthetic example are unchanged. Version 1.0 remains in the repository history.

@@ -3,7 +3,7 @@
 
 **Xián Blanco Méndez**
 
-RESEARCH NOTE 001 · 14 SEPTEMBER 2026 · VERSION 1.0
+RESEARCH NOTE 001 · 14 SEPTEMBER 2026 · VERSION 1.0.1
 
 ### Author's note
 
@@ -68,7 +68,7 @@ At minimum, the evidence must disambiguate the run, identify its material inputs
 
 The identity scope must be explicit. Hashing a delivery archive identifies that archive; it does not automatically cover external files, resolved configuration or later responses read during execution. For transformed inputs, preserve the relationship from source bytes to the effective representation evaluated. For live inputs, capture the observations within the declared boundary. No single package digest proves completeness of an undeclared input set.
 
-Prevent substitution between measurement and consumption through mechanisms appropriate to the environment, such as immutable snapshots or evaluating the same captured bytes. Authenticate the recorder and verify its claims under an explicit trust model. A timestamp orders a claim; a signature attributes a claim; neither alone proves actual consumption.
+Prevent substitution between measurement and consumption through mechanisms appropriate to the environment, such as immutable snapshots or evaluating the same captured bytes. Authenticate the recorder and verify its claims under an explicit trust model. A timestamp records a claimed time; a signature attributes a claim. Neither alone proves actual consumption or the order of events.
 
 ### Falsification cases
 
