@@ -1,0 +1,19 @@
+{
+  "classification": "SYNTHETIC_TEACHING_EXAMPLE",
+  "same_unbound_receipt_for_distinct_inputs": true,
+  "unbound_receipt": {
+    "run_id": "run-7",
+    "result": "TEST_PASS"
+  },
+  "cases": {
+    "missing_input_binding": "UNKNOWN",
+    "missing_terminal": "UNKNOWN",
+    "different_candidate": "REJECTED",
+    "wrong_run": "REJECTED",
+    "contradictory_terminal": "REJECTED",
+    "matching_binding": "BINDING_CHECK_PASS_ONLY"
+  },
+  "promotion": "NOT_EVALUATED",
+  "canonical_transition": "NOT_ATTEMPTED",
+  "limitations": "Honest local recorder; no durability or attestation proof"
+}
